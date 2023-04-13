@@ -1,0 +1,1284 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+    
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+
+
+
+.one-page {
+
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.head-line {
+
+    max-width: 1000px;
+    height: 100px;
+    background-color: rgb(20, 16, 40);
+    color: yellow ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 10px;
+
+    border: 3px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 50px;
+
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.title1 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 10px;
+
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+.container1 {
+
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+    border: 0 3px 3px 3px;
+    border-color: black;
+    text-shadow: yellow 1px 1px 0;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 30px;
+
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+}
+/* MISSING IMAGE */
+
+#bp1 {
+
+    height: 500px;
+    background-color: darkslateblue;
+    color: black;
+    font-size: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+
+    flex: 1;
+
+}
+/* MISSING INFO */
+
+#gyp1 {
+    
+    height: 500px;
+    background-color: darkslateblue;
+    color: black;
+    font-size: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 20px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+
+    flex: 1;
+
+}
+/* MISSING INFO */
+
+#l1 {
+
+    height: 500px;
+    background-color: cadetblue;
+    color: black;
+    font-size: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+   
+    flex: 1;
+
+}
+
+.description {
+
+    text-shadow: yellow 2px 0 0;
+    color: black;
+    text-align: left;
+    line-height: 40px;
+    padding: 30px 0 0 3px;
+    
+}
+
+.description span {
+
+    padding-left: 30px;
+ 
+}
+
+li {
+
+    text-decoration-line: underline;
+    text-decoration-color: black;
+
+}
+
+ul {
+
+    margin-left: 5px;
+    list-style-type: circle;
+
+}
+
+
+
+.title2 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+.container2 {
+
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    text-shadow: yellow 1px 1px 0;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 30px;
+
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bp2 {
+
+    height: 500px;
+    background-color: darkslateblue;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    color: black;
+    font-size: 30px;
+    
+    text-align: left;
+    padding: 10px 0 0 20px;
+
+    flex: 1;
+
+}
+/* MISSING INFO */
+#container4 {
+
+    flex: 1;
+    line-height: 100px;
+
+}
+
+#container4 div {
+
+    flex-basis: 100%;
+
+}
+
+#text1 {
+    
+    flex: 1;
+    flex-basis: 100%;
+
+}
+
+#text1 :first-child {
+
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+#text1 :nth-child(2) {
+
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+#text1 :nth-child(3) {
+
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+#text1 :nth-child(4) {
+
+    padding-left: 0px;
+    padding-bottom: 0px;
+
+}
+#text1 :nth-child(5) {
+   
+    letter-spacing: 3px;
+    padding-left: 10px;
+    text-decoration: underline;
+
+}
+
+#gyp2 {
+
+    height: 500px;
+    background-color: darkslateblue;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 20px;
+    color: black;
+    font-size: 30px;
+    
+    text-align: left;
+    padding: 10px 0 0 20px;
+
+    flex: 1;
+
+}
+/* MISSING INFO */
+#container5 {
+
+    flex: 1;
+    line-height: 100px;
+
+}
+
+#container5 div {
+
+    flex-basis: 100%;
+
+}
+
+#text2 {
+    
+    flex: 1;
+    flex-basis: 100%;
+
+}
+
+#text2 :first-child {
+
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+
+}
+#text2 :nth-child(2) {
+
+    padding-bottom: 0;
+    padding-left: 0;
+
+}
+#text2 :nth-child(3) {
+
+    padding-bottom: 0;
+    padding-left: 0;
+
+}
+#text2 :nth-child(4) {
+
+    padding-left: 0;
+    padding-bottom: 0;
+
+}
+#text2 :nth-child(5) {
+   
+    letter-spacing: 3px;
+    padding-left: 10px;
+    text-decoration: underline;
+
+}
+
+#l2 {
+
+    height: 500px;
+    background-color: cadetblue;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+    font-size: 30px;
+    
+    text-align: left;
+    padding: 10px 0 0 20px;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#container3 {
+
+    flex: 1;
+    line-height: 100px;
+
+}
+
+#container3 div {
+
+    flex-basis: 100%;
+
+}
+
+#text {
+    
+    flex: 1;
+    flex-basis: 100%;
+
+}
+
+#text :first-child {
+
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+#text :nth-child(2) {
+
+    padding-bottom: 68px;
+    padding-left: 10px;
+
+}
+#text :nth-child(3) {
+
+    padding-bottom: 68px;
+    padding-left: 10px;
+
+}
+#text :nth-child(4) {
+
+    padding-left: 10px;
+    padding-bottom: 35px;
+
+}
+#text :nth-child(5) {
+   
+    letter-spacing: 3px;
+    padding-left: 10px;
+    text-decoration: underline;
+
+}
+
+
+
+.title3 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 7px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+
+.b-peter {
+
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#f-f-bpeter {
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-shadow: black 2px 3px 0;
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+
+#f-f-bpeter div {
+
+    flex-basis: 100%;
+    text-align: left;
+
+}
+
+#head1 {
+
+    padding-left: 70px;
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+
+}
+
+#center1 {
+   
+    text-align: center;
+    max-width: 100%;
+    background: -webkit-linear-gradient( white 0%, #48abe0 33%, yellow 50%, orangered 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    letter-spacing: 2px;
+    padding-right: 10px;
+
+} 
+
+#buttons1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+#buttons1 button {
+    
+    border: orangered 2px;
+    border-style: dashed;
+    font-size: 30px;
+    letter-spacing: 1px;
+    background-color:  rgb(20, 16, 40);
+    padding: 5px;
+    color:cadetblue;
+    text-shadow: black 3px 3px 0;
+    margin-bottom: 25px;
+
+}
+/* MISSING INFO */
+
+#s-bpeter {
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+
+    color: white;
+    text-shadow: black 2px 3px 0;
+    letter-spacing: 5px;
+    border-top: black 3px solid;
+
+}
+
+#s-bpeter div {
+
+    flex-basis: 100%;
+
+}
+
+#head3 {
+    
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 30px 0 0 70px;
+
+}
+
+#blabla2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#blabla2 p {
+
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+
+}
+/* MISSING INFO */
+
+
+
+.title4 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 7px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+
+.gy-peter {
+
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#f-f-gypeter {
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-shadow: black 2px 3px 0;
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+
+#f-f-gypeter div {
+
+    flex-basis: 100%;
+    text-align: left;
+
+}
+
+#head2 {
+
+    padding-left: 70px;
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+
+}
+
+#center2 {
+   
+    text-align: center;
+    max-width: 100%;
+    background: -webkit-linear-gradient( white 0%, #48abe0 33%, yellow 50%, orangered 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    letter-spacing: 2px;
+    padding-right: 10px;
+
+} 
+
+#buttons2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+#buttons2 button {
+    
+    border: orangered 2px;
+    border-style: dashed;
+    font-size: 30px;
+    letter-spacing: 1px;
+    background-color:  rgb(20, 16, 40);
+    padding: 5px;
+    color:cadetblue;
+    text-shadow: black 3px 3px 0;
+    margin-bottom: 25px;
+
+}
+/* MISSING INFO */
+
+#s-gypeter {
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+
+    color: white;
+    text-shadow: black 2px 3px 0;
+    letter-spacing: 5px;
+    border-top: black 3px solid;
+
+}
+#s-gypeter div {
+
+    flex-basis: 100%;
+
+}
+
+#head4 {
+    
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 30px 0 0 70px;
+
+}
+
+#blabla3 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#blabla3 p {
+
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+
+}
+/* MISSING INFO */
+
+
+
+.title5 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 7px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+
+.laura {
+
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#f-f-laura {
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-shadow: black 2px 3px 0;
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+#f-f-laura div {
+
+    flex-basis: 100%;
+    text-align: left;
+
+}
+
+#head {
+
+    padding-left: 70px;
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+
+}
+
+#center {
+   
+    text-align: center;
+    max-width: 100%;
+    background: -webkit-linear-gradient( white 0%, #48abe0 33%, yellow 50%, orangered 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    letter-spacing: 2px;
+    padding-right: 10px;
+
+} 
+
+#buttons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+#buttons button {
+    
+    border: orangered 2px;
+    border-style: dashed;
+    font-size: 30px;
+    letter-spacing: 1px;
+    background-color:  rgb(20, 16, 40);
+    padding: 5px;
+    color:cadetblue;
+    text-shadow: black 3px 3px 0;
+    margin-bottom: 25px;
+
+}
+
+#s-laura {
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+
+    color: white;
+    text-shadow: black 2px 3px 0;
+    letter-spacing: 5px;
+    border-top: black 3px solid;
+
+}
+#s-laura div {
+
+    flex-basis: 100%;
+
+}
+
+#head2 {
+    
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 30px 0 0 70px;
+
+}
+
+#blabla {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#blabla p {
+
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+
+}
+/* MISSING INFO */
+
+
+
+.title6 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+
+.movie-part {
+
+    max-width: 1000px;
+    height: 200px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+    display: flex;
+
+}
+/* MISSING INFO */
+
+
+
+.title7 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+
+.motto {
+
+    max-width: 1000px;
+    height: 300px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+
+}
+.motto p {
+
+    font-size: 50px;
+    color: yellow;
+    text-shadow: black 2px 3px 0;
+    margin-left: 70px;
+    margin-top: 20px;
+  
+}
+.motto div {
+
+    color: black;
+    text-shadow: yellow 3px 3px 0;
+    font-size: 35px;
+    background-color: lightseagreen;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    margin: 30px 0 0 150px;
+    padding:0 5px 0 2px;
+    
+}
+
+#l-m {
+
+    border: orangered 3px solid; 
+
+}
+/* MISSING INFO */
+
+
+
+.title8 {
+
+    max-width: 1000px;
+    height: 70px;
+    background-color: rgb(20, 16, 40);
+    color: white ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    padding-left: 70px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+/* MISSING INFO */
+
+.s-d {
+
+    max-width: 1000px;
+    height: 300px;
+    background-color: rgb(20, 16, 40);
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    border: 0 3px 3px 3px;
+    border-color: black;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+}
+
+#round1, #round2, #round3, #round4, #round5, #round6 {
+
+    background-color: transparent;
+    border: white 3px solid;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+
+}
+
+#round1 {
+    
+    position: absolute;
+    left: 30px;
+    
+    display: flex;
+    align-items: center;
+
+}
+#round1 p {
+
+    padding-left:10px;
+
+}
+#middle1 {
+
+    margin-left: 55px;
+
+}
+
+#round2 {
+
+    position: absolute;
+    left: 120px;
+
+    display: flex;
+    align-items: center;
+
+}
+#round2 p {
+
+    padding-left: 100px;
+
+}
+
+#round3 {
+
+    position: absolute;
+    left: 370px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+#round4 {
+
+    position: absolute;
+    left: 460px;
+
+}
+
+#round5 {
+
+    position: absolute;
+    left: 700px;
+
+}
+
+#round6 {
+
+    position: absolute;
+    left: 790px;
+
+}
+
+.names {
+
+    height: fit-content;
+
+    flex-basis: 100%;
+    display: flex;
+    align-items: end;
+   
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    
+}
+
+#name1 {
+
+    margin-right: 50px;
+
+}
+#name2 {
+
+    margin-right: 210px;
+
+}
+#name3 {
+
+    margin-right: 50px;
+
+}
+#name4 {
+
+    margin-right: 210px;
+
+}
+#name5 {
+
+    margin-right: 50px;
+
+}
+
+
+
+.last-words {
+
+    max-width: 1000px;
+    height: 100px;
+    background-color: rgb(20, 16, 40);
+    color: yellow ;
+    text-shadow: black 5px 3px 0;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 8px;
+
+    border: 3px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
