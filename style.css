@@ -138,7 +138,7 @@ img, picture, svg, video {
 #bp1 {
 
     height: 500px;
-    background-color: darkslateblue;
+    background-color: cadetblue;
     color: black;
     font-size: 30px;
     border-color: white;
@@ -150,12 +150,12 @@ img, picture, svg, video {
     flex: 1;
 
 }
-/* MISSING INFO */
+
 
 #gyp1 {
     
     height: 500px;
-    background-color: darkslateblue;
+    background-color: cadetblue;
     color: black;
     font-size: 30px;
     border-color: white;
@@ -168,7 +168,7 @@ img, picture, svg, video {
     flex: 1;
 
 }
-/* MISSING INFO */
+
 
 #l1 {
 
@@ -259,7 +259,7 @@ ul {
     text-shadow: yellow 1px 1px 0;
     border-width: 0 3px 3px 3px;
     border-style: solid;
-    padding-left: 30px;
+    padding-left: 10px;
 
     flex-basis: 100%;
     display: flex;
@@ -268,23 +268,30 @@ ul {
 
 }
 
+
 #bp2 {
 
     height: 500px;
-    background-color: darkslateblue;
+    background-color: cadetblue;
     border-color: white;
     border-style: solid;
     border-width: 3px;
+    margin-left: 20px;
+    margin-right: 10px;
     color: black;
     font-size: 30px;
     
     text-align: left;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 10px;
 
     flex: 1;
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
-/* MISSING INFO */
+
 #container4 {
 
     flex: 1;
@@ -294,7 +301,8 @@ ul {
 
 #container4 div {
 
-    flex-basis: 100%;
+    flex: 1;
+    line-height: 100px;
 
 }
 
@@ -307,27 +315,27 @@ ul {
 
 #text1 :first-child {
 
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
 
 }
 #text1 :nth-child(2) {
 
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding-bottom: 45px;
+    padding-left: 10px;
 
 }
 #text1 :nth-child(3) {
 
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding-bottom: 68px;
+    padding-left: 10px;
 
 }
 #text1 :nth-child(4) {
 
-    padding-left: 0px;
-    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-bottom: 35px;
 
 }
 #text1 :nth-child(5) {
@@ -341,21 +349,26 @@ ul {
 #gyp2 {
 
     height: 500px;
-    background-color: darkslateblue;
+    background-color: cadetblue;
     border-color: white;
     border-style: solid;
     border-width: 3px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: black;
     font-size: 30px;
     
     text-align: left;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 10px;
 
     flex: 1;
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
-/* MISSING INFO */
+
 #container5 {
 
     flex: 1;
@@ -378,33 +391,33 @@ ul {
 
 #text2 :first-child {
 
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-top: 0;
+    padding-bottom: 55px;
+    padding-left: 35px;
+    padding-top: 5px;
 
 }
 #text2 :nth-child(2) {
 
-    padding-bottom: 0;
-    padding-left: 0;
+    padding-bottom: 50px;
+    padding-left: 35px;
 
 }
 #text2 :nth-child(3) {
 
-    padding-bottom: 0;
-    padding-left: 0;
+    padding-bottom: 28px;
+    padding-left: 35px;
 
 }
 #text2 :nth-child(4) {
 
-    padding-left: 0;
-    padding-bottom: 0;
+    padding-left: 35px;
+    padding-bottom: 20px;
 
 }
 #text2 :nth-child(5) {
    
     letter-spacing: 3px;
-    padding-left: 10px;
+    padding-left: 35px;
     text-decoration: underline;
 
 }
@@ -416,13 +429,13 @@ ul {
     border-color: white;
     border-style: solid;
     border-width: 3px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 30px;
     color: black;
     font-size: 30px;
     
     text-align: left;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 10px;
 
     flex: 1;
 
@@ -599,7 +612,7 @@ ul {
     margin-bottom: 25px;
 
 }
-/* MISSING INFO */
+
 
 #s-bpeter {
 
@@ -642,7 +655,7 @@ ul {
 }
 #blabla2 p {
 
-    font-size: 20px;
+    font-size: 35px;
     color: orange;
     text-align: center;
 
@@ -763,7 +776,8 @@ ul {
     margin-bottom: 25px;
 
 }
-/* MISSING INFO */
+
+/* BUTTONS HERE!!!!!!!!!! */
 
 #s-gypeter {
 
@@ -805,7 +819,7 @@ ul {
 }
 #blabla3 p {
 
-    font-size: 20px;
+    font-size: 35px;
     color: orange;
     text-align: center;
 
@@ -926,6 +940,8 @@ ul {
 
 }
 
+
+
 #s-laura {
 
     flex-basis: 100%;
@@ -966,12 +982,12 @@ ul {
 }
 #blabla p {
 
-    font-size: 20px;
+    font-size: 35px;
     color: orange;
     text-align: center;
 
 }
-/* MISSING INFO */
+
 
 
 
@@ -985,7 +1001,7 @@ ul {
     font-family: Reenie Beanie;
     font-weight: bold;
     font-size: 30px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     border: 0 3px 3px 3px;
     border-color: black;
     border-width: 0 3px 3px 3px;
@@ -1024,11 +1040,12 @@ ul {
 .movie-part div {
 
     font-size: 40px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 30px;
     letter-spacing: 5px;
-
+    color: cadetblue;
 }
-/* MISSING INFO */
+
 
 
 
@@ -1058,7 +1075,7 @@ ul {
 
 
 
-.motto {
+.hobby {
 
     max-width: 1000px;
     height: 300px;
@@ -1071,9 +1088,8 @@ ul {
     border-style: solid;
 
     flex-basis: 100%;
-
 }
-.motto p {
+.hobby p {
 
     font-size: 50px;
     color: yellow;
@@ -1082,26 +1098,47 @@ ul {
     margin-top: 20px;
   
 }
-.motto div {
+.hobby div {
 
     color: black;
     text-shadow: yellow 3px 3px 0;
-    font-size: 35px;
-    background-color: lightseagreen;
-    width: max-content;
-    height: max-content;
+    font-size: 50px;
+    
+    
+    margin-top: 40px;
     text-align: center;
-    margin: 30px 0 0 150px;
-    padding:0 5px 0 2px;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-#l-m {
+#l-h {
 
     border: orangered 3px solid; 
+    background-color: lightseagreen;
+    margin-right: 70px;
+    padding: 5px;
 
 }
-/* MISSING INFO */
+#gyp-h {
+
+    border: orangered 3px solid;
+    background-color: lightseagreen; 
+    margin-right: 70px;
+    padding: 5px;
+
+}
+#bp-h {
+
+    border: orangered 3px solid; 
+    background-color: lightseagreen;
+    padding: 5px;
+
+}
+
 
 
 
@@ -1130,7 +1167,8 @@ ul {
 
 }
 
-/* MISSING INFO */
+
+
 
 .s-d {
 
@@ -1139,9 +1177,9 @@ ul {
     background-color: rgb(20, 16, 40);
     font-family: Reenie Beanie;
     font-weight: bold;
-    border: 0 3px 3px 3px;
+    border: 0 3px 0 3px;
     border-color: black;
-    border-width: 0 3px 3px 3px;
+    border-width: 0 3px 0 3px;
     border-style: solid;
 
     flex-basis: 100%;
@@ -1160,6 +1198,9 @@ ul {
     border-radius: 50%;
     height: 180px;
     width: 180px;
+    color: yellow;
+    text-shadow: black solid 3px 3px 0;
+    letter-spacing: 1px;
 
 }
 
@@ -1179,7 +1220,7 @@ ul {
 }
 #middle1 {
 
-    margin-left: 55px;
+    margin-left: 20px;
 
 }
 
@@ -1194,7 +1235,7 @@ ul {
 }
 #round2 p {
 
-    padding-left: 100px;
+    padding-left: 110px;
 
 }
 
@@ -1207,11 +1248,29 @@ ul {
     align-items: center;
 
 }
+#round3 p {
+
+    padding-left: 25px;
+
+}
+#middle2 {
+
+    margin-left: 30px;
+
+}
 
 #round4 {
 
     position: absolute;
     left: 460px;
+
+    display: flex;
+    align-items: center;
+
+}
+#round4 p {
+
+    margin-left: 105px;
 
 }
 
@@ -1220,6 +1279,19 @@ ul {
     position: absolute;
     left: 700px;
 
+    display: flex;
+    align-items: center;
+
+}
+#round5 p {
+
+    padding-left: 20px;
+
+}
+#middle3 {
+
+    margin-left: 15px;
+
 }
 
 #round6 {
@@ -1227,6 +1299,13 @@ ul {
     position: absolute;
     left: 790px;
 
+    display: flex;
+    align-items: center;
+
+}
+#round6 p {
+
+    margin-left: 100px;
 }
 
 .names {
