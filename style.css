@@ -56,17 +56,17 @@ img, picture, svg, video {
     background-color: rgb(220, 220, 220);
     color: rgb(33, 135, 127) ;
     font-size: 50px;
-
     border: 3px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
     margin-top: 50px;
+    margin-bottom: 10px;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+border-radius: 25px;
 }
 
 
@@ -75,12 +75,13 @@ img, picture, svg, video {
 
     max-width: 1000px;
     height: 120px;
-   /* background-color:#f4f4f4;*/
     color: #000;
     font-size: 30px;
-    border: 0 3px 3px 3px;
+    border: 0 3px 0 3px;
     border-color: black;
-    border-width: 0 3px 3px 3px;
+    border-width: 15px 3px 0 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border-style: solid;
     padding-left: 70px;
     flex-basis: 100%;
@@ -107,6 +108,8 @@ img, picture, svg, video {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 
 
 }
@@ -138,42 +141,6 @@ img, picture, svg, video {
 
 }
 
-
-#gyp1 {
-    border-radius: 25px;
-    height: 500px;
-    background-color: #477465;
-    color: black;
-    font-size: 25px;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    margin-left: 20px;
-    padding: 10 0 0 10px;
-    text-align: left;
-
-    flex: 1;
-
-}
-
-
-#l1 {
-    border-radius: 25px;
-    height: 500px;
-    background-color: #477465;
-    color: black;
-    font-size: 30px;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    margin-left: 20px;
-    margin-right: 30px;
-    padding: 0 0 0 20px;
-    text-align: left;
-   
-    flex: 1;
-
-}
 
 .description {
 
@@ -229,176 +196,6 @@ ul {
 
 }
 
-#text1 {
-    
-    flex: 1;
-    flex-basis: 100%;
-
-}
-
-#text1 :first-child {
-
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-
-}
-#text1 :nth-child(2) {
-
-    padding-bottom: 45px;
-    padding-left: 10px;
-
-}
-#text1 :nth-child(3) {
-
-    padding-bottom: 68px;
-    padding-left: 10px;
-
-}
-#text1 :nth-child(4) {
-
-    padding-left: 10px;
-    padding-bottom: 35px;
-
-}
-#text1 :nth-child(5) {
-   
-
-    padding-left: 10px;
-    text-decoration: underline;
-
-}
-
-#gyp2 {
-    border-radius: 25px;
-    height: 500px;
-    background-color: #477465;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: black;
-    font-size: 30px;
-    
-    text-align: left;
-    padding: 0 0 0 20px;
-
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-
-
-
-#text2 {
-    
-    flex: 1;
-    flex-basis: 100%;
-
-}
-
-#text2 :first-child {
-
-    padding-bottom: 55px;
-    padding-left: 35px;
-    padding-top: 5px;
-
-}
-#text2 :nth-child(2) {
-
-    padding-bottom: 50px;
-    padding-left: 35px;
-
-}
-#text2 :nth-child(3) {
-
-    padding-bottom: 28px;
-    padding-left: 35px;
-
-}
-#text2 :nth-child(4) {
-
-    padding-left: 35px;
-    padding-bottom: 20px;
-
-}
-#text2 :nth-child(5) {
-   
-
-    padding-left: 35px;
-    text-decoration: underline;
-
-}
-
-#l2 {
-    border-radius: 25px;
-    height: 500px;
-    background-color: #477465;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    margin-left: 10px;
-    margin-right: 30px;
-    color: black;
-    font-size: 30px;
-    
-    text-align: left;
-    padding: 0 0 0 20px;
-
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-
-
-#text {
-    
-    flex: 1;
-    flex-basis: 100%;
-
-}
-
-#text :first-child {
-
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-
-}
-#text :nth-child(2) {
-
-    padding-bottom: 10px;
-    padding-left: 10px;
-
-}
-#text :nth-child(3) {
-
-    padding-bottom: 10px;
-    padding-left: 10px;
-
-}
-#text :nth-child(4) {
-
-    padding-left: 10px;
-    padding-bottom: 35px;
-
-}
-#text :nth-child(5) {
-   
-  
-    padding-left: 10px;
- 
-}
-
-
-
 
 .b-peter {
 
@@ -413,6 +210,8 @@ ul {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 
 }
 
@@ -474,7 +273,7 @@ ul {
     border-style: dashed;
     font-size: 33px;
     background-color:  rgb(228, 228, 228);
-     padding: 5px;
+     padding: 15px;
     color:rgb(82, 82, 82);
     margin-bottom: 25px;
 
@@ -516,7 +315,6 @@ ul {
     color:rgb(82, 82, 82);
 
 }
-/* MISSING INFO */
 
 
 .gy-peter {
@@ -528,12 +326,12 @@ ul {
     border-color: black;
     border-width: 0 3px 3px 3px;
     border-style: solid;
-
     flex-basis: 100%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 #f-f-gypeter {
@@ -557,22 +355,6 @@ ul {
     text-align: left;
 
 }
-
-
-#center2 {
-   
-    text-align: center;
-    max-width: 100%;
-    background: -webkit-linear-gradient( white 0%, #48abe0 33%, yellow 50%, orangered 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: none;
-
-    padding-right: 10px;
-
-} 
-
 
 
 #s-gypeter {
@@ -606,12 +388,12 @@ ul {
     border-color: black;
     border-width: 0 3px 3px 3px;
     border-style: solid;
-
     flex-basis: 100%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 #f-f-laura {
@@ -700,16 +482,17 @@ ul {
 .movie-part {
 
     max-width: 1000px;
-    height: 200px;
+    height: 250px;
     background-color: rgb(185, 185, 185);
     border: 0 3px 3px 3px;
     border-color: black;
     border-width: 0 3px 3px 3px;
     border-style: solid;
     flex-basis: 100%;
-    padding-top: 20px;
+    padding-top: 50px;
     align-items: center;
-
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .movie-part p {
@@ -723,28 +506,28 @@ ul {
 .hobby {
 
     max-width: 1000px;
-    height: 300px;
+    height: 400px;
     background-color: rgb(183, 183, 183);
-    border: 0 3px 3px 3px;
+    border: 3px 3px 3px 3px;
     border-color: black;
-    border-width: 0 3px 3px 3px;
+    border-width: 3px 3px 3px 3px;
     border-style: solid;
-
     flex-basis: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .hobby p {
 
     font-size: 30px;
-
     margin-left: 70px;
     margin-top: 20px;
-  
+   
 }
 .hobby div {
 
     color: black;
     font-size: 50px;
-     margin-top: 40px;
+    margin-top: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -753,38 +536,15 @@ ul {
 }
 
 
-#l-h {
-
-    border: orangered 3px solid; 
-    background-color: lightseagreen;
-    margin-right: 70px;
-    padding: 5px;
-
-}
-#gyp-h {
-
-    border: orangered 3px solid;
-    background-color: lightseagreen; 
-    margin-right: 70px;
-    padding: 5px;
-
-}
-#bp-h {
-
-    border: orangered 3px solid; 
-    background-color: lightseagreen;
-    padding: 5px;
-
-}
 
 .s-d {
 
     max-width: 1000px;
     height: 400px;
     background-color: rgb(183, 183, 183);
-    border: 0 3px 0 3px;
+    border: 3px 3px 3px 3px;
     border-color: black;
-    border-width: 0 3px 0 3px;
+    border-width: 3px 3px 3px 3px;
     border-style: solid;
     flex-basis: 100%;
     display: flex;
@@ -792,7 +552,8 @@ ul {
     flex-direction: row;
     align-items: center;
     position: relative;
-
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 #round1, #round2, #round3, #round4, #round5, #round6 {
@@ -893,6 +654,8 @@ ul {
 #middle3 {
 
     margin-left: 310px;
+    z-index:2;
+    letter-spacing: -4px;
 
 }
 
@@ -961,14 +724,17 @@ ul {
     background-color: rgb(220, 220, 220);
     color: #477465 ;
     font-size: 50px;
-    border: 3px;
+    border: 0 3px 0 3px;
     border-color: black;
-    border-width: 3px;
+    border-width: 15px 3px 0 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border-style: solid;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 
 .overlay {
